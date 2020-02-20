@@ -1,0 +1,69 @@
+#product {
+    background-color: #fff;
+    margin-bottom: 10px;
+
+    & > p {
+        margin: 10px;
+        justify-self: center;
+        font-size: 25px;
+    }
+
+    #amount {
+        padding: 1px;
+        text-align: center;
+    }
+
+    #sum {
+        margin: 15px 10px;
+        justify-self: normal;
+        font-size: 12px;
+    }
+
+    & > input, textarea {
+        margin: 10px;
+    }
+}
+
+#priceField {
+    display: flex;
+    align-items: center;
+    height: 27px;
+    margin: 10px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #E6EAEE;
+
+    &:focus-within {
+        border: 1px solid hsl(210, 100%, 66%);
+    }
+
+    p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    #priceInput {
+        width: 60px;
+        margin: 0;
+        border: none;
+        background-color: transparent;
+    }
+
+    #priceInput:focus {
+        border: none;
+    }
+}
+
+#trash-icon {
+    font-size: 25px;
+    margin: 10px 0;
+    justify-self: center;
+
+    &:hover {
+        color: rgb(150, 150, 150);
+    }
+
+    &:active {
+        color: rgb(109, 109, 109);
+    }
+}

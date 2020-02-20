@@ -1,0 +1,40 @@
+#productContainer {
+    grid-row-start: 3;
+    grid-column: 1 / -1;
+    margin: 20px 30px;
+
+    & > p {
+        text-transform: uppercase;
+        margin: 15px 0;
+    }
+}
+
+#products {
+    display: flex;
+    flex-direction: column;
+
+    #productInfo {
+        margin: 0 10px 10px 10px;
+    }
+
+    & > span {
+        width: inherit;
+        display: grid;
+        grid-template-columns: 80px 230px 310px 80px 120px 80px 1fr;;
+        overflow: hidden;
+    } 
+}
+
+#productFooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#addProduct {
+    grid-template: 1 / 2;
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "customer_id": 74,
+    "customer_name": "Coffee Fellows",
+    "customer_contact_person": "Alexandra Muß",
+    "customer_address": "Hanauer Landstraße 110",
+    "customer_zip": "60313",
+    "customer_city": "Frankfurt am Main",
+    "iban": "DE1234556787879",
+    "bic": "KARSDEXXX",
+    "account_owner": "CF Frankfurt GmbH",
+    "mandate_reference": "LSM20170711",
+    "mandate_city": "Frankfurt am Main",
+    "mandate_date": "23.02.2017",
+    "mandate_signee": "Alexandra Muß",
+    "invoice_number": "R201706018",
+    "invoice_period": "Juni 2017",
+    "invoice_date": "03.07.2017",
+    "invoice_due_date": "07.07.2017",
+    "line_items": [
+      {
+        "name": "Starter",
+        "description": "Digitales Bonussystem\nPOS Terminal\nKundenauswertungen Neukundenangebote\nErstellen und Versenden von Kampagnen",
+        "quantity": 2,
+        "price_cents": 7900
+      },
+      {
+        "name": "Service",
+        "description": "Persönlicher Kundenservice",
+        "quantity": 2,
+        "price_cents": 1990
+      }
+    ]
+  }
+]

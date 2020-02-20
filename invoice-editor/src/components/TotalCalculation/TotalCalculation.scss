@@ -1,0 +1,37 @@
+hr {
+    margin: 10px 0;
+    border: .5px solid #E6EAEE;
+}
+
+#invoicesSum{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 40px 10%;
+
+    span:first-child {
+        font-weight: 500;
+    }
+
+    span > p {
+        text-transform: none;
+        line-height: 1.5;
+    }
+}
+
+#totalSum {
+    grid-column: 3 / -1;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 2;
+}
+
+#invoicesSum span:last-child, #totalSum span:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#nettoBetrag {
+    color: #000;
+    font-weight: 500;
+}

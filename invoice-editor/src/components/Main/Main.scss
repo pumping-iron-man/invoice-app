@@ -1,0 +1,94 @@
+.Main {
+    overflow: auto;
+    grid-column: 3 / -1;
+    grid-row: 2 / -1;
+
+    display: inherit;
+    grid-template: 270px 110px auto 30px / 1fr 1fr;
+    color: #9FA9BA;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+img {
+    grid-column: 3 / -1;
+    grid-row: 2 / -1;
+    align-self: center;
+    justify-self: center;
+    height: 150px;
+}
+
+#generalData, 
+#paymentInfo, 
+#invoiceData1, 
+#invoiceData2, 
+#removeInvoice {
+    margin-right: 30px;
+    margin-left: 30px;
+
+    & > p {
+        text-transform: uppercase;
+        margin: 15px 0;
+    }
+
+    span {
+        margin-bottom: 5px;
+    }
+}
+
+#generalData {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+#paymentInfo {
+    grid-row: 1 / 2;
+    grid-column: 2 / -1;
+}
+
+#invoiceData1 {
+    grid-column: 1 / 2;
+}
+
+#invoiceData2 {
+    grid-column: 2 / -1;
+}
+
+.invoiceData {
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#removeInvoice {
+    grid-row-end: -1;
+    grid-column: 1 / 2;
+    color: #9FA9BA;
+    font-size: 12px;
+    font-weight: 500;
+    align-self: flex-start;
+    justify-self: flex-start;
+    background-color: transparent;	    
+    box-shadow: none;
+    transition: color .3s;
+
+    &:hover {
+        color: #5e5e5e;
+    }
+}
+
+.topbottomMargin {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.inputField {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > input {
+        width: 270px;
+    }
+}
