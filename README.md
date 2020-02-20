@@ -7,7 +7,7 @@
 ## Description
 
 Store and edit your invoices with this Invoice Editor. <br />
-React, Redux and SCSS (for styling) are used
+Nodejs, React and SCSS (for styling) are used
 for this app.
 
 ## Available Scripts
