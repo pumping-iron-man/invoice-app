@@ -2,7 +2,7 @@
 
 ## Screenshot
 
-![Invoice Editor](.\invoice-editor\invoice_editor.png)
+![Invoice Editor](.\frontend\invoice_editor.png)
 
 ## Description
 
